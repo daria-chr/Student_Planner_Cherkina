@@ -37,16 +37,16 @@ Home ──── нажатие на дисциплину ──── Details
 ## Скриншоты
 
 ### Главный экран
-![Главный экран](img/step7_navigation_working_Cherkina_1.png)
+![Главный экран](app/img/step7_navigation_working_Cherkina_1.png)
 
 ### Детали дисциплины
-![Детали дисциплины](img/step7_navigation_working_Cherkina_2.png)
+![Детали дисциплины](app/img/step7_navigation_working_Cherkina_2.png)
 
 ### Профиль студента
-![Профиль](img/step7_navigation_working_Cherkina_3.png)
+![Профиль](app/img/step7_navigation_working_Cherkina_3.png)
 
 ### Настройки
-![Настройки](img/step7_navigation_working_Cherkina_4.png)
+![Настройки](app/img/step7_navigation_working_Cherkina_4.png)
 
 ## Контрольные вопросы
 
@@ -64,7 +64,7 @@ Sealed class даёт type-safety: компилятор знает все воз
 
 ### 4. Что такое Back Stack и как им управлять?
 
-Back Stack — стек экранов по принципу LIFO (последним вошёл — первым вышел). Для последовательности Home → Profile → Settings стек выглядит так:
+Back Stack — стек экранов по принципу LIFO (последним вошёл — первым вышел). Для последовательности Home -> Profile -> Settings стек выглядит так:
 
 [ Home | Profile | Settings ]  <- текущий экран
 
