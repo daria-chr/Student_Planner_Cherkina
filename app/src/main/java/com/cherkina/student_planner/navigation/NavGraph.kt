@@ -32,6 +32,9 @@ fun StudentPlannerNavHost(
                 },
                 onSettingClick = {
                     navController.navigate(Screen.Settings.route)
+                },
+                onScheduleClick = {
+                    navController.navigate(Screen.Schedule.route)
                 }
             )
         }
@@ -60,6 +63,13 @@ fun StudentPlannerNavHost(
         }
         composable(route= Screen.Settings.route){
             SettingsScreen(
+                onNavigateBack = {
+                    navController.popBackStack()
+                }
+            )
+        }
+        composable(route = Screen.Schedule.route) {
+            ScheduleScreen(
                 onNavigateBack = {
                     navController.popBackStack()
                 }

@@ -8,6 +8,7 @@ sealed class Screen(val route: String){
         fun createRoute(subject: String)="details/$subject"
     }
     object Prifile: Screen("profile")
-    object  Settings: Screen("settings")
+    object Settings: Screen("settings")
+    object Schedule: Screen("schedule")
 
 }
